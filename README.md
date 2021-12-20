@@ -12,7 +12,7 @@ Prueba técnica realizada para optar al puesto de FrontEnd Developer.
 
 
 
-### Contacto: 
+### Contacto 
 
 <p>
     <a href="https://www.linkedin.com/in/pablo-vásquez-villarroel-44642b188/"> <img alt="pblov's LinkedIN" width="22px" src="https://img.icons8.com/color/48/000000/linkedin.png" /></a> 
