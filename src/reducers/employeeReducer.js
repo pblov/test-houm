@@ -80,7 +80,10 @@ export const employeeReducer = (state = initialState, action) => {
             if(state.namesFiltered.length > 0 && namesFilteredByJob.length > 0){
                
                 const filterBySearch = state.namesFiltered.filter((employee) => employee.jobs === job);
-                return { ...state, namesFiltered: filterBySearch, namesFilteredByJob: filterBySearch  }
+             
+                return(filterBySearch.length === 0) ? { ...state, data:false } 
+                                                    : { ...state, namesFiltered: filterBySearch, namesFilteredByJob: filterBySearch  } 
+           
             }
 
     
