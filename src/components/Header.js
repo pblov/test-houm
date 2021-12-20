@@ -15,6 +15,10 @@ export const Header = () => {
                 <Toolbar>
                     <Typography variant="h6" sx={{ fontWeight:'bold', flexGrow:'1', textAlign:'center' }} component="div">
                         Employee App 
+                        
+                        <Typography component="a" href="https://github.com/pblov/" ml={2}sx={{fontWeight:'bold', fontSize:'12px', textDecoration:'none', color:'#FF452B' }}>
+                            (by pblov)
+                        </Typography>
                     </Typography>
                 
                 </Toolbar>
